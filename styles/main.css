@@ -1,0 +1,96 @@
+body {
+    background-image: url("/images/smart_house.png");
+    background-size: 200%;
+    font-size: 30px;
+    margin: 0;
+}
+
+header{
+    width: 960px;
+    background-color: rgba(100,150,255,50%);
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 100px;
+    line-height: 30px;
+    text-align: center;
+    height: 100px;
+    border: 2px solid black;
+}
+
+header p {
+    position: relative;
+    top: 5px;
+}
+
+footer {
+    margin: 50px 0px 0px 0px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-top: 3px solid black;
+    background-color: rgba(100,150,255,50%);
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    line-height: 70px;
+}
+
+.footer_copyrights {
+    float: right;
+    text-align: right;
+    font-family: courier new;
+}
+
+.footer_menu {
+    float: left;
+    text-align: left;
+    font-family: courier new;
+    font-size: 25px;
+}
+
+.wrapper {
+    width: 960px;
+    background-color: rgba(100,150,255,50%);
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 0 20px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.menu_block ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 25%;
+    padding: 0;
+    width: 500px;
+    position: relative;
+    top: 100px;
+}
+
+.menu_block ul li a{
+    display:block;
+    color: green;
+    font-weight: bold;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    background-color: rgba(220,220,220,80%);
+    target="_blank";
+    height: 60px;
+    line-height: 60px;
+    font-family: 'Ubuntu';
+}
+
+.menu_block ul li a:hover {
+    background-color: rgba(255, 255, 255, 75%);
+}
+
+.clr {
+    clear: both;
+}
+
+h1 {
+    font-family: 'Ubuntu';
+}
